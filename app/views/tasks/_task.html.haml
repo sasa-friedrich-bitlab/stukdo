@@ -4,6 +4,6 @@
     = link_to task_path(task), method: :delete, data: {confirm: "Are you sure?"}, class: "pull-right" do
       %i.fa.fa-remove
   .panel-body
-    = task.content
+    = task.content_html
   .panel-footer
     = state_links(task)
