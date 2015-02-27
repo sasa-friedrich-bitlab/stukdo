@@ -1,2 +1,14 @@
-%h1 Pages#about
-%p Find me in app/views/pages/about.html.erb
+.page-header
+  %h1
+    %i.fa.fa-circle-o-notch 
+    Stukdo
+%p This is simple Ruby on Rails Application for managing your ToDo list.
+%p
+  It is based on "Ruby On Rails Fundamentals" course by 
+  = link_to "stuk.io.", "https://stuk.io"
+  You can check source on
+  = link_to "GitHub.", "https://github.com/sasa-friedrich-bitlab/stukdo"
+%p
+  You can sign up for free and test it.
+%br
+=link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg", role: "button"

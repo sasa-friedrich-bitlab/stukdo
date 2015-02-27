@@ -1,3 +1,5 @@
 == StukDo
 
 This is samle applicatiion for first stuk.io Rails course "Ruby on Rails Fundamentals"
+
+You can check live demo at https://stormy-eyrie-7525.herokuapp.com/
