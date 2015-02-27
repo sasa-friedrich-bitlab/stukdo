@@ -16,4 +16,4 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-window.setTimeout(function() { $(".alert").fadeOut(800); }, 3000);
+window.setTimeout(function() { $(".alert").fadeOut(800); }, 4000);

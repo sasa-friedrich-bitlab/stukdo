@@ -5,10 +5,17 @@
 @import "pages";
 
 body {
-  padding-top: 70px;
+  padding-top: 52px;
 }
 
 .alert {
+  z-index: 100;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  right: 20px;
+  opacity: 0.7;
+
   .glyphicon {
     font-size: 2em;
     vertical-align: middle;
