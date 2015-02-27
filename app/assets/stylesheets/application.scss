@@ -3,6 +3,10 @@
 @import "bootstrap";
 @import "devise";
 
+body {
+  padding-top: 70px;
+}
+
 .alert {
   .glyphicon {
     font-size: 2em;
