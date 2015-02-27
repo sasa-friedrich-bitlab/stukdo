@@ -1,5 +1,8 @@
 .panel.panel-info
-  .panel-heading= task.state
+  .panel-heading
+    = link_to "created #{time_ago_in_words(task.created_at)} ago", edit_task_path(task)
+    = link_to task_path(task), method: :delete, data: {confirm: "Are you sure?"}, class: "pull-right" do
+      %i.fa.fa-remove
   .panel-body
     = task.content
   .panel-footer

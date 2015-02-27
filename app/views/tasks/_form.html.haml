@@ -1,0 +1,7 @@
+= simple_form_for(@task) do |f|
+  = f.error_notification
+
+  = f.input :content, label: false, required: true, autofocus: true, placeholder: "Content", input_html: { rows: "10" }
+
+  = link_to 'Cancel', tasks_path, class: "btn btn-default"
+  = f.button :submit, class: "btn btn-primary pull-right"

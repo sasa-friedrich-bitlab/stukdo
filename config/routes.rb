@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :tasks do
+  resources :tasks, except: :show do
     member do
       put :change
     end

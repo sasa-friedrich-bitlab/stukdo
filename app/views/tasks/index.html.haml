@@ -1,10 +1,14 @@
+= link_to 'Create task', new_task_path
+%br
 .row
   .col-md-4
-    %h2.text-center To do
+    %h3.text-center To do
     =render @to_do
   .col-md-4
-    %h2.text-center Doing
+    %h3.text-center Doing
     =render @doing
   .col-md-4
-    %h2.text-center Done
+    %h3.text-center Done
     =render @done
+%br
+= link_to 'Create task', new_task_path
