@@ -2,3 +2,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "devise";
+
+.alert {
+  .glyphicon {
+    font-size: 2em;
+    vertical-align: middle;
+  }
+  .message {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+}
